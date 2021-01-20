@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>
+    <div class="border-solid border-4 border-blue-400 w-full">
       <Logo />
       <h1 class="title">capstone</h1>
       <div class="links">
