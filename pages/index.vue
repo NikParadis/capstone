@@ -1,27 +1,17 @@
 <template>
-  <div class="container">
-    <div class="border-solid border-4 border-blue-400 w-full">
-      <Logo />
-      <h1 class="title">capstone</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >GitHub</a>
-      </div>
-    </div>
+  <div class="w-full h-screen">
+    <img :src="`${backgroundUrl}`" style="top: 58px" class="relative" />
   </div>
 </template>
 
 <script>
+export default {
+  data() {
+    return {
+      backgroundUrl: require("@/assets/render1.jpg")
+    };
+  }
+};
 </script>
 
 <style>
