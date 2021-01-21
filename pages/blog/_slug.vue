@@ -1,5 +1,5 @@
 <template>
-  <article class="mt-8 md:mt-6 mx-auto mb-4 p-8 md:p-20 max-w-4xl">
+  <article class="mt-10 md:mt-6 mx-auto mb-4 p-8 md:p-20 max-w-4xl">
     <nuxt-link class="text-lg hover:underline" to="/blog">&#8592; back to posts</nuxt-link>
     <h1 class="text-4xl font-semibold leading-tight mt-2">{{ article.title }}</h1>
     <p class="text-gray-700 mb-2">Written by {{article.author}} </br> {{ article.date }}</p>
@@ -9,13 +9,13 @@
                 :src="article.img"
               />
             </div>
-    <nuxt-content class="leading-relaxed" :document="article" />
+    <nuxt-content class="leading-relaxed list-decimal" :document="article" />
     <prev-next class="mt-4 text-xl" :prev="prev" :next="next" />
   </article>
 </template>
 
 
- <style>
+ <style lang="postcss">
 .nuxt-content h2 {
   font-weight: 600;
   font-size: 28px;
@@ -27,6 +27,13 @@
 .nuxt-content p {
   margin-bottom: 20px;
   font-size: 22px;
+}
+ol {
+  @apply .list-decimal;
+  @apply text-xl;
+  @apply list-inside;
+  @apply ml-2;
+  @apply mb-4;
 }
 article {
   margin-top: 8rem;

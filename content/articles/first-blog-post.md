@@ -18,9 +18,9 @@ All the electrical components are expected to arrive in the coming week or two a
 ## Testing Stages
 The goal is to test the circuitry and the heating element with the blade first. We want to ensure that
 
-    1. Our circuitry works as expected (power consuption is ~500 Watts)
-    2. The blade reaches expected temperature (~132 degrees Celcius)
-    3. Nothing catches on fire
+1. Our circuitry works as expected (power consuption is ~500 Watts)
+2. The blade reaches expected temperature (~132 degrees Celcius)
+3. Nothing catches on fire
 
 Once these are satisfied, we can go on with ordering the rest of the mechanical parts to complete the base and attatch the blade to the torsional spring. The drawings for all mechanical parts is complete and we're getting ready to send those into the shop shortly. The lead time on those parts shouldn't be an issue since in the meantime, we have lots of testing to do.
 
