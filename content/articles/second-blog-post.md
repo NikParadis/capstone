@@ -7,4 +7,4 @@ date: Feb 2021
 author: Nik Paradis
 ---
 
-Content coming soon!
+Content coming soon.

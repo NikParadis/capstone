@@ -35,6 +35,9 @@ ol {
   @apply ml-2;
   @apply mb-4;
 }
+li {
+  @apply mb-2;
+}
 article {
   margin-top: 8rem;
 }
