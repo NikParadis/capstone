@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-8 md:mt-12 mb-4 p-12 leading-relaxed">
+  <div class="mt-8 md:mt-12 mb-4 p-8 md:p-12 leading-relaxed">
     <h1 class="text-4xl font-semibold">Blog</h1>
     <p
       class="text-xl"

@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-12 mb-4 p-12">
+  <div class="mt-12 mb-4 p-8 md:p-12">
     <h1 class="text-4xl font-semibold">Team</h1>
     <p
       class="text-xl leading-relaxed"
