@@ -1,6 +1,6 @@
 ---
 title: Materials
-description: Crossing the last few hurdles and waiting for final shipments before testing our design.
+description: Crossing the last few hurdles and waiting for final shipments before testing.
 img: /first-blog-post.jpg
 alt: first blog banner image
 date: Jan 2021
