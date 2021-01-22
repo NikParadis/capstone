@@ -28,3 +28,6 @@ Once these are satisfied, we can go on with ordering, testing and assembling the
 That's it for now. Our hands are tied just waiting on shipments. We're trying to build in enough buffer time in our testing schedule to order another heating element if need be. Those have a hefty 5 week lead time though, so we're pretty tight on time.
 
 Fingers crossed nothing goes horribly wrong!
+
+
+
