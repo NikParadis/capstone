@@ -99,7 +99,7 @@
                 d="M437.332 80H74.668C51.199 80 32 99.198 32 122.667v266.666C32 412.802 51.199 432 74.668 432h362.664C460.801 432 480 412.802 480 389.333V122.667C480 99.198 460.801 80 437.332 80zM432 170.667L256 288 80 170.667V128l176 117.333L432 128v42.667z"
               />
             </svg>
-            <h1 class="px-2 text-sm">nparadis@uwaterloo.ca</h1>
+            <a class="px-2 text-sm" href="mailto:nparadis@uwaterloo.ca">nparadis@uwaterloo.ca</a>
           </div>
         </div>
       </div>
@@ -147,7 +147,7 @@
                 d="M437.332 80H74.668C51.199 80 32 99.198 32 122.667v266.666C32 412.802 51.199 432 74.668 432h362.664C460.801 432 480 412.802 480 389.333V122.667C480 99.198 460.801 80 437.332 80zM432 170.667L256 288 80 170.667V128l176 117.333L432 128v42.667z"
               />
             </svg>
-            <h1 class="px-2 text-sm">apbarry@uwaterloo.ca</h1>
+            <a class="px-2 text-sm" class="mailto:nparadis@uwaterloo.ca">apbarry@uwaterloo.ca</a>
           </div>
         </div>
       </div>
@@ -195,7 +195,7 @@
                 d="M437.332 80H74.668C51.199 80 32 99.198 32 122.667v266.666C32 412.802 51.199 432 74.668 432h362.664C460.801 432 480 412.802 480 389.333V122.667C480 99.198 460.801 80 437.332 80zM432 170.667L256 288 80 170.667V128l176 117.333L432 128v42.667z"
               />
             </svg>
-            <h1 class="px-2 text-sm">mavorale@uwaterloo.ca</h1>
+            <a class="px-2 text-sm" class="mailto:mavorale@uwaterloo.ca">mavorale@uwaterloo.ca</a>
           </div>
         </div>
       </div>
@@ -243,7 +243,7 @@
                 d="M437.332 80H74.668C51.199 80 32 99.198 32 122.667v266.666C32 412.802 51.199 432 74.668 432h362.664C460.801 432 480 412.802 480 389.333V122.667C480 99.198 460.801 80 437.332 80zM432 170.667L256 288 80 170.667V128l176 117.333L432 128v42.667z"
               />
             </svg>
-            <h1 class="px-2 text-sm">jatatter@uwaterloo.ca</h1>
+            <a class="px-2 text-sm" href="mailto:jatatter@uwaterloo.ca">jatatter@uwaterloo.ca</a>
           </div>
         </div>
       </div>
