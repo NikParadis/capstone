@@ -1,4 +1,11 @@
 export default {
+  vue: {
+    config: {
+      ignoredElements: [
+        'applause-button'
+      ]
+    }
+  },
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 

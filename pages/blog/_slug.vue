@@ -10,7 +10,9 @@
               />
             </div>
     <nuxt-content class="leading-relaxed list-decimal" :document="article" />
+    <applause-button multiclap="true" class="mt-12 mx-auto" color="#DC2626" style="width: 58px; height: 58px;"/>
     <prev-next class="mt-4 text-xl" :prev="prev" :next="next" />
+    
   </article>
 </template>
 
@@ -45,7 +47,22 @@ article {
    
 <script>
 export default {
+  head:{
+    script: [
+      {
+        src:
+          'https://unpkg.com/applause-button/dist/applause-button.js'
+      }
+    ],
+    link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/applause-button/dist/applause-button.css'
+      }
+    ],
+  },
   async asyncData({ $content, params }) {
+    
     // fetch our article here
     const article = await $content("articles", params.slug).fetch();
     console.log(article);
@@ -57,7 +74,6 @@ export default {
 
     return { article, prev, next };
   },
-  
 
   methods: {
     formatDate(date) {
