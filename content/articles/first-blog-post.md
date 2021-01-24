@@ -3,8 +3,9 @@ title: Materials
 description: Crossing the last few hurdles and waiting for final shipments before testing.
 img: /first-blog-post.jpg
 alt: first blog banner image
-date: Jan 2021
+date: Jan 2021,
 author: Nik Paradis
+order: 0
 ---
 
 ## Shipments
@@ -16,7 +17,7 @@ Coming in at $500, it's one of our most expensive parts. Fortunately, like every
 All the electrical components are expected to arrive in the coming week or two as well.
 
 ## Testing Stages
-The goal is to test the circuitry and the heating element with the blade first. If either of those have faults, we need to iron them out before proceesing with the base or any other aspect of the design. Initially, we want to ensure that:
+The goal is to test the circuitry and the heating element with the blade first. If either of those have faults, we need to iron them out before proceesing with the base or any other aspect of the design. Initially, we want to ensure:
 
 1. Our circuitry works as expected (power consuption is ~500 Watts)
 2. The blade reaches ~132 degrees Celcius

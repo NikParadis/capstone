@@ -10,7 +10,7 @@
               />
             </div>
     <nuxt-content class="leading-relaxed list-decimal" :document="article" />
-    <applause-button multiclap="true" class="mt-12 mx-auto" color="#DC2626" style="width: 58px; height: 58px;"/>
+    <applause-button multiclap="true" class="mt-12 mb-6 mx-auto" color="#DC2626" style="width: 58px; height: 58px;"/>
     <prev-next class="mt-4 text-xl" :prev="prev" :next="next" />
     
   </article>

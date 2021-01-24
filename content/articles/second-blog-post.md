@@ -5,6 +5,7 @@ img: /second-blog-post.jpg
 alt: second blog banner image
 date: Feb 2021
 author: Nik Paradis
+order: 1
 ---
 
-Content coming soon.
+Content coming soon...
